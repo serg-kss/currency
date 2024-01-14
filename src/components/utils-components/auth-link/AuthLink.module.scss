@@ -1,0 +1,15 @@
+.auth {
+    width: 12vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .authLink {
+        color: #1F1E25;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-decoration: none;
+    }
+}

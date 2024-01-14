@@ -1,0 +1,18 @@
+.header {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    .navigationList {
+        width: 35vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .navigationLinks {
+            list-style-type: none;
+        }
+        :hover {
+            color: #2C36F2;
+        }
+    }
+}

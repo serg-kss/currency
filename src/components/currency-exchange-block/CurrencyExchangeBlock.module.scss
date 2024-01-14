@@ -1,0 +1,40 @@
+
+    .currency {
+        display: flex;
+        height: 40vh;
+        margin-top: 5vh;
+        .currencyContainer {
+            width: 50vw;
+            padding-left: 10vw;
+            display: flex;
+            align-items: self-start;
+            justify-content: center;
+            flex-direction: column;
+            .currencyTitle {
+                margin: 0;
+                color: #F6F7FF;
+                font-family: Roboto;
+                font-size: 54px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+            .currencyText {
+                width: 25vw;
+                color: #E0E1EA;
+                font-family: Roboto;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+            }
+        }
+        .cardContainer {
+            width: 50vw;
+            padding-right: 10vw;
+            display: flex;
+            align-items: self-end;
+            justify-content: center;
+            flex-direction: column;
+        }
+    }

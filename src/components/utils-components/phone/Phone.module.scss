@@ -1,0 +1,33 @@
+.phoneContainer {
+    width: 15vw;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: start;
+    justify-content: start;
+    .phoneImg {
+     position: absolute;
+     top: 0;
+     left: -20px;
+     margin: 0;
+    }
+    .phoneNumber {
+        margin: 0;
+        color: #1F1E25;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 140%; /* 22.4px */
+    }
+    .phoneText {
+        color: #707C87;
+        font-family: Roboto;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%; /* 16.8px */
+      
+    }
+}
+
+
