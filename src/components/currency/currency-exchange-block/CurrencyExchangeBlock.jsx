@@ -1,5 +1,5 @@
 import styles from './CurrencyExchangeBlock.module.scss'
-import Button from '../utils-components/button/Button';
+import Button from '../../utils-components/button/Button';
 
 
 function CurrencyExchangeBlock(props) {

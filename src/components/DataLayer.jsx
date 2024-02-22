@@ -1,4 +1,4 @@
-import CurrencyExchange from "./currency-exchange/CurrencyExchange";
+import CurrencyExchange from './currency/currency-exchange/CurrencyExchange';
 import Header from './header/Header';
 import Footer from './footer/Footer';
 import masterCard from '../img/master-card.png';
@@ -6,6 +6,7 @@ import blackCard from '../img/black-card.png';
 import backgroundImg from '../img/background-main-page.png';
 import phone from '../img/phone.png';
 import oldPhone from '../img/old-type-phone.png';
+import authImg from '../img/login.svg';
 
 function DataLayer() {
 
@@ -16,7 +17,8 @@ function DataLayer() {
       {title: 'Контакти', route: '/contacts'},
       {title: 'Задати питання', route: '/questions'}
     ],
-    auth: 'Особистий кабінет'
+    auth: {title: 'Особистий кабінет', route: '/auth'},
+    authImg: authImg
   }
 
   const currencyExchange = {
@@ -43,6 +45,11 @@ function DataLayer() {
       }
     ],
     backgroundImg: backgroundImg,
+    form: [
+      {type: 'number', name: 'amountIn'},
+      {type: 'number', name: 'amountOut'},
+      {type: 'date', name: 'date'}
+    ]
   }
 
   const footer = {

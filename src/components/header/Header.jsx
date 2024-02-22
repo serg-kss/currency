@@ -1,5 +1,4 @@
 import NavLogo from "../utils-components/nav-logo/NavLogo";
-import AuthLink from "../utils-components/auth-link/AuthLink";
 import styles from './Header.module.scss'
 import NavigationLink from "../utils-components/nav-links/NavigationLink";
 
@@ -15,7 +14,7 @@ function Header(props) {
           </ul>
         </div>
         <div className="header-auth">
-          <AuthLink title = {props.header.auth}/>
+          <NavigationLink link = {props.header.auth} authImg = {props.header.authImg}/>
         </div>
       </header>
     );
