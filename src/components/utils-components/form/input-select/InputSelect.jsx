@@ -1,7 +1,7 @@
 import styles from './InputSelect.module.scss'
 
 
-function InputSelect() {
+function InputSelect(props) {
     return (
         <select>
             <option value="UAH">UAH</option>
