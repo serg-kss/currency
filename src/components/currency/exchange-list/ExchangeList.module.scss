@@ -1,0 +1,23 @@
+.exchangeList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    .exchangeRef {
+        width: 50vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-color: #2C36F2;
+        color: aliceblue;
+        li {
+            list-style-type: none;
+            .currencyArrow {
+                width: 3vw;
+                height: 5vh;
+            }
+        }
+    }
+}
+
+
